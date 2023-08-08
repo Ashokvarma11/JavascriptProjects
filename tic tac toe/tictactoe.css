@@ -1,0 +1,64 @@
+.button {
+    width: 60px;
+    height: 80px;
+    background-color: #00a693;
+    border-color: #99EDC3;
+    border-style: solid;
+
+}
+
+#but1,
+#but2,
+#but3 {
+    border-top: none;
+
+}
+
+#but7,
+#but8,
+#but9 {
+    border-bottom: none;
+}
+
+#but3,
+#but6,
+#but9 {
+    border-right: none;
+}
+
+#but1,
+#but4,
+#but7 {
+    border-left: none;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.flex {
+    background-color: #00a693;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-weight: bold;
+}
+
+.player2 {
+    color: white;
+}
