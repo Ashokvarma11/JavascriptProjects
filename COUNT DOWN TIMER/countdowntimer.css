@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(17, 18, 17);
+}
+
+.card {
+
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    border-style: ridge;
+    border-radius: 19px 19px 19px 19px;
+    transition: box-shadow 0.5s ease-in-out;
+
+
+}
+
+.card:hover {
+    border: 3px solid;
+    background-color: #2F3C7E;
+    /* background-color: rgb(27, 175, 101); */
+    border-color: rgb(127, 99, 228);
+    box-shadow: 0 0 800px rgba(238, 238, 241, 0.4);
+
+}
+
+button {
+    width: 60px;
+    height: 30px;
+}
+
+input {
+    width: 150px;
+    height: 30px;
+}
+
+.parentdiv {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn1 {
+    border: 1px solid;
+
+    /* border-color: rgb(237, 42, 133); */
+    border-color: blue;
+
+    border-radius: 5px 5px 5px 5px;
+}
+
+.input {
+    border: 1px solid;
+
+    border-radius: 5px 5px 5px 5px;
+    /* 
+    border-color:  rgb(237, 42, 133); */
+    border-color: blue;
+
+
+}
