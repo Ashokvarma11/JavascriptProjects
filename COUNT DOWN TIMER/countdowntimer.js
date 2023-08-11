@@ -56,11 +56,6 @@ start.addEventListener('click',function(){
             res.addEventListener('click',function(){
     
                 h1.innerHTML=`00:00:00`
-                seconds=0
-                hour=0
-                mins=0
-                min=1
-                mintues=0
                 
                 clearInterval(myInterval)
             }) 
@@ -92,11 +87,6 @@ start.addEventListener('click',function(){
             })  
             res.addEventListener('click',function(){
                 h1.innerHTML=`00:00:00`
-                seconds=0
-                hour=0
-                mins=0
-                min=0
-                mintues=0
                 clearInterval(myInterval)
             }) 
         }
@@ -131,11 +121,6 @@ start.addEventListener('click',function(){
             res.addEventListener('click',function(){
     
                 h1.innerHTML=`00:00:00`
-                seconds=0
-                hour=0
-                mins=0
-                min=0
-                mintues=0
                 clearInterval(myInterval)
             })
         }   
