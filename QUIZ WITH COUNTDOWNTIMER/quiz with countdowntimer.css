@@ -1,0 +1,43 @@
+ .options{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: flex-start;
+    padding:10px;
+    margin:5px;
+    
+    
+    }
+    .align{
+        display: flex;
+        gap: 200px;
+        align-items: center;
+        background-color: rgba(132, 167, 248, 0.94);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;        
+        border-style:groove;
+        border-radius: 0px 35px;
+    }
+    
+    .parentdiv{
+        position: absolute;
+        left: 30%;
+        top: 20%;
+        background-color: rgb(195, 242, 242);
+        border-style:none;
+        border-color: rgb(59, 27, 178);
+        margin: 10px;
+        border-radius: 0px 80px;
+        padding: 20px;
+
+    }
+    .btn{
+        border-radius:10px;
+        padding:7px;
+        display: flex;
+        margin-left:87%;
+        margin-top: 10px;
+        margin-bottom:10px;
+        border-style: double;
+
+    }
